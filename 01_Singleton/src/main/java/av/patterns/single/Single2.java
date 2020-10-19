@@ -6,13 +6,13 @@ package av.patterns.single;
  */
 public class Single2 {
 
-    private volatile static Object instance;
+    private volatile static Single2 instance;
 
-    public static Object getINSTANCE() {
+    public static Single2 getINSTANCE() {
         if (instance == null) {
-            synchronized (Object.class) {
+            synchronized (Single2.class) {
                 if (instance == null) {
-                    instance = new Object();
+                    instance = new Single2();
                 }
             }
         }

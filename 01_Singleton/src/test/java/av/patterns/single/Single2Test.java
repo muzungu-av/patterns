@@ -1,16 +1,14 @@
 package av.patterns.single;
 
 import org.junit.Test;
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
 
+import static org.junit.Assert.assertSame;
 
 public class Single2Test {
-
     @Test
     public void getINSTANCE() {
-        Object t1 = Single2.getINSTANCE();
-        Object t2 = Single2.getINSTANCE();
-        assertThat(t1, is(t2));
+        Single2 o1 = Single2.getINSTANCE();
+        Single2 o2 = Single2.getINSTANCE();
+        assertSame(o1, o2);
     }
 }
