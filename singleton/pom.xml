@@ -11,7 +11,7 @@
   <version>1</version>
 
   <name>singleton</name>
-  <url>https://github.com/muzungu-av/patterns</url>
+  <url>https://github.com/muzungu-av/patterns/tree/master/singleton</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
