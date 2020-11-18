@@ -1,4 +1,4 @@
-package av.patterns.single;
+package singleton;
 
 /**
  * Вариант синглтона - через  поле внутреннего класса.

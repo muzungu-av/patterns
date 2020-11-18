@@ -1,4 +1,4 @@
-package av.patterns.single;
+package singleton;
 
 /**
  * Вариант синглтона - создается один раз при первом обращении.
