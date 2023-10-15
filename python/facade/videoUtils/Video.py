@@ -12,9 +12,12 @@ class Video:
             return result
 
         result += self.tasks[0]
+        result += "\n"
 
         for element in self.tasks:
-            result += element
-            result += "\n"
+            if (element != self.tasks[0]):
+                result += element
+                if (self.tasks[-1] != element):
+                    result += "\n"
 
         return result
