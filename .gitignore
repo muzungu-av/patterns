@@ -27,4 +27,7 @@ hs_err_pid*
 *target/
 .idea/
 *.iml
-/strategy/src/main/java/strategy/
+python/*/pyvenv.cfg
+python/*/__pycache__/
+python/*/bin/
+python/*/lib/
