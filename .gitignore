@@ -31,3 +31,4 @@ python/*/pyvenv.cfg
 python/*/__pycache__/
 python/*/bin/
 python/*/lib/
+**/__pycache__/*/
